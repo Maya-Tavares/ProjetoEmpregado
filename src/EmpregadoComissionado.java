@@ -9,7 +9,7 @@ public class EmpregadoComissionado extends Empregado{
         this.comissao = comissao;
     }
 
-    public double calcularSalario(double totalVendas, double comissao) {
+    public double calcularSalario() {
 //        return super.calcularSalario();
         double salario = (totalVendas * comissao)/100;
         return salario;
